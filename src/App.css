@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #24282f;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #00b5cc;
+  margin-bottom: 24px;
+  font-size: 2.5rem;
+}
+
+/* Área de Busca Centralizada */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.search-input {
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #4f535b;
+  background-color: #1a1d22;
+  color: #fff;
+  width: 320px;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #00b5cc;
+}
+
+.btn {
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.1s ease, opacity 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.btn-search {
+  background-color: #97ce4c;
+  color: #24282f;
+}
+
+.btn-clear {
+  background-color: #e89ac7;
+  color: #24282f;
+}
+
+/* Mensagens de Feedback */
+.feedback-message {
+  text-align: center;
+  font-size: 18px;
+  margin: 40px 0;
+}
+
+.error-message {
+  color: #ff6b6b;
+}
+
+/* Grid de Personagens Centralizado */
+.grid-personagens {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Card Individual */
+.card-personagem {
+  background-color: #3c3e44;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-personagem:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.card-personagem img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 18px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.card-content h3 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  color: #f5f5f5;
+}
+
+.card-content p {
+  margin: 6px 0;
+  color: #d1d5db;
+}
+
+.card-content strong {
+  color: #ffffff;
+}
