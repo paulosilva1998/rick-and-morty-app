@@ -24,7 +24,7 @@ Aplicação desenvolvida em **React** para demonstrar o consumo assíncrono de A
 
 ---
 
-## Imagens:
+## 📸 Imagens:
 
 <img width="1917" height="950" alt="1" src="https://github.com/user-attachments/assets/97358d4c-86c9-45a8-b9d5-f2b2bec0b707" />
 <img width="1918" height="942" alt="2" src="https://github.com/user-attachments/assets/b03639eb-432c-4311-8c79-c07375853f36" />
